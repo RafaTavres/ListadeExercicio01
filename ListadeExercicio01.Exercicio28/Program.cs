@@ -17,7 +17,7 @@ namespace ListadeExercicio01.Exercicio28
 
 
             List<string> Historico = new List<string>();
-            Console.WriteLine("Calculdadora de volume de um cilindro\n------------------");
+            Console.WriteLine("Exiba a tabuada de multiplicação do 1 até o 10\n------------------");
             while (resposta.ToUpper() != sair)
             {
 
