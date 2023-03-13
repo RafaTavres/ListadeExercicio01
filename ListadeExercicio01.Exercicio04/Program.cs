@@ -19,9 +19,7 @@
             while (resposta.ToUpper() != sair)
             {
 
-
-                Console.WriteLine("Gasolina Total: ");
-                double Litrosgasolina = Convert.ToDouble(Console.ReadLine());
+              
                 Console.WriteLine("Comsumo do carro por Km: ");
                 double Gasolinagasta = Convert.ToDouble(Console.ReadLine());
                 Console.WriteLine("Kilometragem Inicial");
