@@ -27,7 +27,7 @@
                 Console.WriteLine("Kilometragem final");
                 double kilometFinal = Convert.ToDouble(Console.ReadLine());
 
-                resultado = (kilometFinal - kilometInicial) / Gasolinagasta;
+                resultado = Gasolinagasta / (kilometFinal - kilometInicial);
 
                 Console.WriteLine("Resultado: "+resultado+ " Km/L");
 
